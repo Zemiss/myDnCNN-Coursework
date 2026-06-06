@@ -1,6 +1,0 @@
-jittor
-numpy
-opencv-python
-h5py
-tensorboardX
-scikit-image

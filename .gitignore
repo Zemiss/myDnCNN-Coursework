@@ -4,10 +4,13 @@ __pycache__/
 # Generated preprocessing files
 train.h5
 val.h5
+data/
 
 # Training outputs
 logs/
 runs/
+outputs/
+models/*.pkl
 *.log
 *.pkl
 

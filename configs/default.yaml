@@ -1,0 +1,31 @@
+train:
+  preprocess: false
+  batch_size: 128
+  epochs: 10
+  milestone: 6
+  lr: 0.001
+  mode: B
+  noiseL: 25
+  val_noiseL: 25
+  num_workers: 4
+  use_cuda: true
+
+preprocess:
+  patch_size: 64
+  stride: 10
+
+model:
+  num_of_layers: 17
+
+eval:
+  test_data: Set12
+  test_noiseL: 25
+
+paths:
+  data_dir: data
+  train_h5: train.h5
+  val_h5: val.h5
+  model_dir: models
+  checkpoint_name: net.pkl
+  log_dir: outputs/logs/DnCNN-B
+  log_file: outputs/logs/DnCNN-B.log
