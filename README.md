@@ -1,4 +1,4 @@
-# 人工智能高阶课程大作业：myDnCNN
+# 人工智能高阶课程大作业：JDnCNN
 
 ![Jittor](https://img.shields.io/badge/Jittor-1.3%2B-blue)
 ![Python](https://img.shields.io/badge/Python-3.9%2B-green)
